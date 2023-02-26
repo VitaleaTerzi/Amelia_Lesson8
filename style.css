@@ -1,0 +1,125 @@
+@import url("reset.css");
+
+/* font-family: 'Montserrat';*/
+html body {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  background: #f5f5f5;
+  color: #161616;
+  font-size: 18px;
+}
+
+/* ....................................HEADER................................................... */
+.header {
+  background: #81a36b;
+}
+
+.header_buttons {
+    display: flex;
+  justify-content: space-between;
+  color: #161616;
+  text-decoration: none;
+}
+.header_buttons a {
+    text-decoration: none;
+    color: #161616;
+
+}
+.buttons {
+    padding-left: 200px;
+    padding-bottom: 50px;
+} 
+.header_buttons li {
+  padding: top 25px;
+}
+.header-logo {
+  width: 155px;
+  height: 39px;
+  
+}
+/* ....................................HEADER................................................... */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* .................................SECTION 1............................................... */
+.section1 {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: 'Vetrino';
+
+    
+}
+.logo_title h1 {
+    
+    
+
+}
+.section1_text {
+  width: 540px;
+  height: 87px;
+}
+/* .................................SECTION 3 PRICE............................................... */
+
+.price {
+  background: #81a36b;
+  padding: 80px;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.price-box img {
+  margin-bottom: 20px;
+}
+
+.price {
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding: 80px 213px 122px 192px;
+}
+
+/* .......................................FOOTER................................................... */
+.footer {
+  background: #81a36b;
+  padding: 60px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.flex-container h3 {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.footer-contact a {
+  color: #161616;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-contact ul > li + li {
+  margin-top: 20px;
+}
+/* .footer-contact ul > li : last-child {
+margin-bottom: 0;
+} */
+
+.footer-year {
+  text-align: center;
+  font-family: "Montserrat" sans-serif;
+  font-weight: 500;
+}
