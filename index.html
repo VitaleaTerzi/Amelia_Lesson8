@@ -15,58 +15,74 @@
 <body>
     <!-- .........................................HEADER.............................................................. -->
     <header class="header">
-        <div class="container">
-            <div class="header-logo">
+        <div class="container headercontainer">
+            <a href="#"  class="header-logo">
                 <img src="images/logo.svg" alt="logo" width="155" height="39">
-            </div>
+            </a>
             <div class="buttons">
                 <ul class="header_buttons">
-                    <li> <a href="#header">Главная</a></li>
-                    <li> <a href="#header">О нас</a> </li>
-                    <li> <a href="#header">Как мы работаем</a></li>
-                    <li><a href="#header">Наши работы</a></li>
-                    <li><a href="#header">Контакты</a></li>
+                    <li> <a href="#headermain">Главная</a></li>
+                    <li> <a href="#header_aboutus">О нас</a> </li>
+                    <li> <a href="#headerhow">Как мы работаем</a></li>
+                    <li><a href="#headerourworks">Наши работы</a></li>
+                    <li><a href="##footercontacts">Контакты</a></li>
                 </ul>
             </div>
         </div>
-
-        <!-- ..........................................HEADER.............................................................. -->
-        <!-- <a href="#footer">CLICK ME</a> -->
-
-
     </header>
+    <!-- ..........................................HEADER.............................................................. -->
+
+
+
+
 
     <main>
         <!-- ...........................................SECTION 1.......................................................... -->
         <section class="section1">
+            <div class="container">
+                <div class="section1_text" id="#headermain">
+                    <div class="logo_title">
+                        <h1>Amelia Flowers</h1>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Eum deleniti unde ullam nostrum maiores pariatur!
+                    </p>
+                    <div class="buttons_section1">
+                        <ul>
+                            <li class="ord_fl"> <a href="#">Заказать букет</a></li>
+                            <li class="help_fl"> <a href="#">Помощь флориста</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foto1">
+                    <img src="images/img1.jpg" alt="foto1">
+                </div>
+            </div>
 
-            <div class="logo_title">
-                <h1>Amelia Flowers</h1>
-            </div>
-            <div class="section1_text">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Eum deleniti unde ullam nostrum maiores pariatur!
-                </p>
-            </div>
-            <div>
-<img src="images/img1.jpg" alt="foto1">
-            </div>
         </section>
-        <!-- ...........................................SECTION 1.......................................................... -->
-
+        
 
 
 
         <!-- ...........................................SECTION 2.......................................................... -->
-        <section>
+        <section class="section2">
+            <div class="container2">
+                <div class="about_us" id="header_aboutus">
+                    <h2>О НАС</h2>
+                </div>
+                <div class="section2_text">
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                        стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>
+            </div>
 
 
         </section>
-        <!-- ...........................................SECTION 2.......................................................... -->
+        
 
         <!-- ...........................................SECTION 3.......................................................... -->
         <section class="price">
-            <div class="container">
+            <div class="container3">
                 <ul class="price-box">
                     <li>
                         <img src="images/about_1.svg" alt="content image">
@@ -94,15 +110,51 @@
         </section>
         <!-- ...........................................SECTION 3.......................................................... -->
 
+
         <!-- ...........................................SECTION 4.......................................................... -->
-        <section></section>
-        <!-- ...........................................SECTION 4.......................................................... -->
+        <section class="howtowork" id="headerhow">
+            <div class="container4">
+                <div class="foto2">
+                    <img src="images/img2.jpg" alt="foto2" width="539" height="560">
+                </div>
+                <div class="work4"> 
+                <div class="howtoworktitle">  
+                    <h2>Как мы работаем</h2>
+                </div>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                        стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>
+            </div>
+        </section>
+
 
         <!-- ...........................................SECTION 5.......................................................... -->
 
-        <section></section>
+        <section class="container">
+            <div class="container5">
+                <div class="ourworks" id="#headerourworks">
+                    <h2>Наши работы</h2>
+                </div>
 
-        <!-- ...........................................SECTION 5.......................................................... -->
+                <div class="work-cards">  
+                <div class="workcard">
+                    <img src="images/img3.jpg" alt="foto3" width="320" height="402">
+                    <p>Букет ”Флоренция”</p>
+                </div>
+                <div class="workcard">
+                    <img src="images/img4.jpg" alt="foto4" width="320" height="402">
+                    <p>Букет ”Флоренция”</p>
+                </div>
+                <div class="workcard">
+                    <img src="images/img5.jpg" alt="foto5" width="320" height="402">
+                    <p>Букет ”Флоренция”</p>
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+
 
 
 
@@ -114,7 +166,7 @@
                 <div class="footer-contact">
                     <h3>Контакты</h3>
                     <ul>
-                        <li><a href="#">+380517328964</a></li>
+                        <li><a href="#" id="#footercontacts">+380517328964</a></li>
                         <li><a href="#">+380517328964</a></li>
                         <li>Харьков, ул Сумская 115</li>
                     </ul>

@@ -10,83 +10,236 @@ body {
   background: #f5f5f5;
   color: #161616;
   font-size: 18px;
+  line-height: 24px;
 }
 
 /* ....................................HEADER................................................... */
 .header {
   background: #81a36b;
+  padding: 20px 0;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.header_buttons {
-    display: flex;
+.headercontainer {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+
+.header_buttons {
+  display: flex;
+  gap: 90px;
   color: #161616;
   text-decoration: none;
 }
 .header_buttons a {
-    text-decoration: none;
-    color: #161616;
+  text-decoration: none;
+  color: #161616;
+}
 
+.header_buttons a:hover {
+  color: fuchsia;
 }
-.buttons {
-    padding-left: 200px;
-    padding-bottom: 50px;
-} 
-.header_buttons li {
-  padding: top 25px;
-}
-.header-logo {
-  width: 155px;
-  height: 39px;
-  
-}
+
+
+
 /* ....................................HEADER................................................... */
 
+
+/* .................................SECTION 1............................................... */ 
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+  align-items: center;
+  gap: 50px;
+  flex: 1 1 50%;
 }
-/* .................................SECTION 1............................................... */
-.section1 {
-    display: flex;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
-    font-family: 'Vetrino';
 
-    
+.section1 .container {
+  display: flex;
+  text-align: center;
 }
-.logo_title h1 {
-    
-    
+.logo_title {
+  font-weight: 400;
+font-size: 62px;
+line-height: 67px;
+  color: #000000;
+  padding-bottom: 60px;
+}
+.foto1 {
+  height: 670px;
+}
+.foto1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.buttons_section1 a {
+  text-decoration: none;
+  color: black;
+  padding-top: 60;
 
 }
-.section1_text {
+.buttons {
+  padding-top: 40px;
+  gap: 112px;
+}
+.ord_fl {
+display: inline-block;
+text-decoration: none;
+  color: black;
+  background-color: #81a36b;
+  width: 190px;
+  height: 60px;
+  padding: 20px 30px;
+}
+.help_fl {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 190px;
+  height: 60px;
+  border: solid 2px  #81a36b;
+  padding: 20px 30px;
+}
+
+/* .................................SECTION 2............................................... */
+
+.container2 {
   width: 540px;
-  height: 87px;
+  padding: 0;
+padding-top: 120px;
+padding-bottom: 120px;
 }
+
+.section2 {
+display: flex;
+max-width: 1140px;
+margin: 0 auto;
+font-family: 'Vetrino'; 
+text-align: center;
+width: 540px;
+
+}
+
+
+.about_us {
+font-weight: 400;
+font-size: 32px;
+line-height: 34px;
+color: #000000;
+padding: top 120px;
+padding-bottom: 60px;
+}
+
+.section2_text p {
+  font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #161616;
+}
+
 /* .................................SECTION 3 PRICE............................................... */
 
+.container3 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .price {
-  background: #81a36b;
-  padding: 80px;
+  background: #81a36b; 
 }
 
 .price-box {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  gap: 100px;
 }
 .price-box img {
   margin-bottom: 20px;
+  
 }
 
 .price {
   font-family: "Montserrat";
   font-weight: 500;
   padding: 80px 213px 122px 192px;
+  
 }
+/* ..................................... SECTION 4.............................................................*/
+
+.container4 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  padding-top: 120px;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  flex: 1 1 50%;
+}
+
+
+.howtoworktitle {
+  font-weight: 400;
+font-size: 32px;
+line-height: 67px;
+  color: #000000;
+}
+.foto2  {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ..................................... SECTION 5.............................................................*/
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
+}
+.container5 {
+  padding: 15px 15px 95px;
+}
+.ourworks {
+text-align: center;
+font-weight: 400;
+font-size: 32px;
+line-height: 34px;
+padding: 120px 0;
+}
+.work-cards {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  
+  
+}
+
+.workcard {
+  background: #81a36b;
+  padding: 15px 15px 95px;
+  flex: 1 1 30%;
+}
+
+
+
+
+
+
 
 /* .......................................FOOTER................................................... */
 .footer {
