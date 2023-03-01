@@ -84,10 +84,12 @@ body {
 .buttons_section1 a {
   text-decoration: none;
   color: black;
+
   }
 
 .buttons_section1 {
 padding-top: 60px;
+padding: 20px 30px;
 }
 
 
@@ -96,20 +98,21 @@ padding-top: 60px;
   gap: 112px;
 }
 .ord_fl {
-display: inline-block;
-text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
   color: black;
   background-color: #81a36b;
   width: 190px;
-  height: 60px;
+  height: 40px;
   padding: 20px 30px;
+  font-size: 18px;
 }
 .help_fl {
   display: inline-block;
   text-decoration: none;
   color: black;
   width: 190px;
-  height: 60px;
+  height: 40px;
   border: solid 2px  #81a36b;
   padding: 20px 30px;
 }
